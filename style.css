@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: higher;
+  src: url(./font/HIGHERUP.TTF);
+}
+@font-face {
+  font-family: marketing;
+  src: url(./font/MarketingScript.ttf);
+}
+body {
+  background: url(./img/bg.png);
+}
+.header-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.span {
+  font-family: marketing;
+}
+.navbar {
+  background: #fff;
+  width: 100%;
+  z-index: 2;
+}
+.nav-links {
+  display: flex;
+
+  list-style-type: none;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.section {
+  padding: 2rem 2rem;
+}
+.about-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-img {
+  transform: rotate(-5deg);
+  background: #fff;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.about-photo {
+  transform: rotate(-4deg);
+  border: white solid 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-info span {
+  font-family: marketing;
+}
+.about-info h3 {
+  text-transform: uppercase;
+  color: grey;
+}
+.about-info h2 {
+  color: orangered;
+  font-family: higher;
+  font-size: 2rem;
+  padding-left: 1rem;
+  align-items: baseline;
+}
+
+.about-info img,
+h2 {
+  /* display: inline-block; */
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+.btn {
+  color: gray;
+  background: hsl(216, 7%, 86%);
+  border: transparent;
+  font-family: higher;
+  text-transform: uppercase;
+  padding: 0.8rem 0.3rem;
+  /* margin-left: 1rem; */
+  margin-right: 2rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+}
+.menu-center {
+  display: flex;
+}
+.latest-info {
+  background: #fff;
+  border: rgb(228, 223, 223) solid 5px;
+  margin-bottom: 1rem;
+  width: 23rem;
+}
+.info {
+  font-family: marketing;
+  text-transform: capitalize;
+  border-bottom: rgb(228, 223, 223) solid;
+  padding-bottom: 1.5rem;
+  padding-left: 0.9rem;
+  color: rgb(125, 119, 119);
+}
+.news {
+  color: rgb(125, 119, 119);
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-left: 0.7rem;
+  margin-bottom: 2rem;
+}
+.news p {
+  font-size: 0.7rem;
+}
+.news-img {
+  padding-bottom: 2rem;
+  display: block;
+  margin: auto;
+}
+a {
+  color: rgb(125, 119, 119);
+}
+.order {
+  color: black;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.form-info {
+  text-transform: capitalize;
+  color: orangered;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+.bttn {
+  margin-top: 2rem;
+  float: right;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+.btn-submit {
+  border: none;
+  color: rgb(125, 119, 119);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.info-center {
+  display: flex;
+  /* flex: 0 0 calc(33.333%-2rem); */
+  justify-content: space-between;
+}
+input {
+  /* padding: 0.7rem 5rem; */
+  width: 18rem;
+  height: 2rem;
+}
+.footer-center {
+  border: rgb(228, 223, 223) solid 5px;
+  display: flex;
+}
+.footer-info h3 {
+  text-transform: uppercase;
+  color: rgb(125, 119, 119);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.footer-info p,
+a {
+  color: rgb(125, 119, 119);
+  text-transform: capitalize;
+  max-width: 35rem;
+  padding-left: 1rem;
+}
+.footer-info {
+  padding-bottom: 2rem;
+}
+.footer-info {
+  display: flex;
+}
+.footer-link a {
+  list-style-type: none;
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer-link {
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+.copyright {
+  display: flex;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.bottle {
+  opacity: 0.5;
+}
+.copyright p {
+  color: rgb(125, 119, 119);
+  text-transform: capitalize;
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
